@@ -1,0 +1,27 @@
+body {
+    background: #24353f;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#home {
+    height: 75vh;
+}
+
+h1 {
+    color: #17a2b8;
+}
+
+.group {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+.logout-btn {
+    border: 1px solid #ffc107; /* Adds a border with a color */
+
+    border-radius: 5px;       /* Rounds the corners */
+    transition: all 0.3s ease-in-out; /* Smooth transition for hover effect */
+}
+.logout-btn:hover {
+    background-color: #ffc107; /* Changes background color on hover */
+    color: #000;               /* Changes text color on hover */
+}
